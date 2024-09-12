@@ -41,7 +41,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="onPlayButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ozG-KW-vlK"/>
-                                    <segue destination="LxV-x5-Vsl" kind="show" id="n86-Wz-khC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -60,9 +59,9 @@
         <!--Game View Controller-->
         <scene sceneID="TAq-w9-Vqx">
             <objects>
-                <viewController id="LxV-x5-Vsl" customClass="GameViewController" customModule="Tapper" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GameViewController" id="LxV-x5-Vsl" customClass="GameViewController" customModule="Tapper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eTO-6f-sae">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="5nX-fC-yf4">
